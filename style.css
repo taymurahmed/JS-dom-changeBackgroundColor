@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+#main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: white; /* Sets the text color to white */
+            text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000; 
+  background-color: rgb(247, 25, 228);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn:hover{
+  background-color: #fff;
+  color: #000;
+  text-shadow: none;
+}
+
+h3{
+  color: white; /* Sets the text color to white */
+            text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000; 
+}
+
+#input-btn{
+  padding: 8px;
+  margin-top: 10px;
+  /* border: none; */
+}
+
+#copy-btn{
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  background-color: crimson;
+  cursor: pointer;
+}
+
+.alertDiv{
+  position: fixed;
+  top: 200px;
+  left: 43%;
+  background-Color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
